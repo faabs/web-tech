@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Trasitional//EN"
+"http://www.w3.org/TR/xhtml/DTD/xhtml-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sp" lang="sp">
+            //dtd transitional lo usamos cuando queremos describir la presentacion de documentos por medio de etiquetas.
+                // dtd incluye características del strict pero añade características de estilo(CSS)
+            //dtd strict: deja la maquetación entera al CSS
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf=8" />   
+       <title>.:: Estructura de un documento XHTML ::. </title>
+</head>
+
+<body>
+<h1> Estructura de un documento XHTML </h1>
+
+<h2> Las 3 opciones de DTD son: </h2>
+
+<ol>
+    <li>Strict</li>
+    <li>Trasitional y,</li>
+    <li>Frameset</li>
+</ol>    
+</body>
+</html>

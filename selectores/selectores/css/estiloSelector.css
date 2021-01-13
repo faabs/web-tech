@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Elemento */
+/*
+h1{
+	color:#039;
+	text-align:center;
+}
+*/
+
+
+
+/* Elemento,elemento */
+/*
+h1,p{
+	color:#393;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:24px;
+} 
+*/
+
+
+/* Elemento elemento (descendiente) */
+
+div p{
+	text-align:right;
+	border:dotted;
+	border-color:black; 
+	}
+
+/* Elemento>elemento (hijo) */
+
+div>p{
+	text-align:left;
+	border:dashed;
+	border-color:#96F;
+	color:#09F;
+	}
+
+	
+/* Elemento+elemento (colocados después de) */
+
+div+p{
+	text-align:center;
+	border:double;
+	border-color:red; 
+	}
+
+	
+/* Class */	
+
+.anaranjado{
+	color:#F60;
+}
+
+
+
+/* Elemento.class */	
+
+p.negrita{
+	font-weight:bold;
+}
+
+
+/* .class1 .class2 */
+
+p.grande{
+	font-size:x-large;
+	color:#3C9;
+}
+
+p.italica{
+	font-style:italic;
+
+	}
+	
+/* Selector id, debemos escribir un # seguido del nombre del id del elemento  */
+
+#ultimoparrafo{
+	text-align:center;
+	color:#8D2BB3;
+}
+
+
+/* * Selector Universal */
+
+*{
+	text-align:center;
+	color:#39F;
+	}
+	

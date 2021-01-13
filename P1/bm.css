@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+div{
+	margin: 5px;
+	border: 10px solid lightblue;
+	padding: 8px;
+}
+
+div[name^="top"]{
+	width: 500px;
+	height: 50px;
+	display: block;
+}
+
+div[name^="mid"]{
+	height: 300px;
+	display: inline-block;
+}
+div[name^="midside"]{
+	width: 75px;
+}
+div[name^="midp"]{
+	width: 250px;
+}
+div[name^="btm"]{
+	height: 50px;
+	width: 500px;
+}

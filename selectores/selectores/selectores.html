@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>.:: Categor&iacute;as de Selectores ::.</title>
+<link href="css/estiloSelector.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>Selectores</h1>
+
+<p>Los selectores son usados para "buscar" (o seleccionar) los elementos HTML a los que queremos aplicar alg&uacute;n estilo.</p>
+
+<div>
+    <span><p>Podemos dividirlos en 5 categor&iacute;as:</p></span>
+    <p>Este ejemplo selecciona todos los elementos &lt;p&gt; que est&aacute;n dentro (descienden) de un elemento &lt;div&gt;</p>
+    <p>Este p&aacute;rrafo y el anterior son hijos del elemento &lt;div&gt; (padre)</p>
+
+    <dl>
+    	<dt>Selectores simples</dt>
+        <dd>Seleccionan elementos basados en su nombre, id o clase.</dd>
+        <dt>Selectores de combinaci&oacute;n</dt>
+        <dd>Seleccionan elementos basados en una relaci&oacute;n espec&iacute;fica entre ellos
+        <p>Hay 4 combinadores diferentes en CSS:</p>
+        <ol>
+ 			<li>Selector descendiente (espacio)</li>
+            <li>Selector hijo (>)</li>
+            <li>Selector de hermano adyacente (+)</li>
+            <li>Selector general de hermanos (~)</li>
+        </ol>      
+        </dd>
+        <dt>Selectores de pseudo-clase</dt>
+        <dd>Seleccionan elementos basados en un cierto estado</dd>
+        <dt>Selectores de pseudoelementos</dt>
+        <dd>Seleccionan y aplican estilo a una parte de un elemento</dd>
+        <dt>Selectores de atributos</dt>
+        <dd>Seleccionan elementos basados en un atributo o valor de atributo</dd>
+    </dl>
+
+</div>
+
+<div>
+	<ol>
+    <li>
+	<p>Con este ejemplo se seleccionan todos los elementos &lt;p&gt; que descienden de un elemento &lt;div&gt;</p>
+	</li>
+    <li>
+    <p>Con este ejemplo se seleccionan todos los elementos &lt;p&gt; que descienden de un elemento &lt;div&gt;</p>
+    </li>
+    <li>
+    <p>Con este ejemplo se seleccionan todos los elementos &lt;p&gt; que descienden de un elemento &lt;div&gt;</p>
+    </li>
+    </ol>
+</div>
+
+<p>Este ejemplo selecciona el elemento &lt;p&gt; que est&aacute; definido inmediatamente despu&eacute;s de un elemento &lt;div&gt;</p>
+<p>Este ejemplo selecciona el elemento &lt;p&gt; que est&aacute; definido inmediatamente despu&eacute;s de un elemento &lt;div&gt;</p>
+    
+<h4 class="anaranjado">Este ejemplo aplica el estilo a los elementos cuyo valor del atributo <code>class</code> coincida con "anaranjado"</code>.</h4>
+
+
+<p class="grande italica">En este ejemplo todos los elementos &lt;p&gt; ser&aacute;n dise&ntilde;ados de acuerdo a la <code>class="grande"</code> y a la <code>class="italica"</code></p>
+
+<p id="ultimoparrafo">El <strong>selector id</strong> utiliza el <strong>atributo id de un elemento HTML</strong> y es usado para seleccionar un &uacute;nico elemento. Es case sensitive. Este ejemplo selecciona el elemento &lt;p&gt; con el <code>id="ultimoparrafo"</code></p>
+
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Trasitional//EN"
+"http://www.w3.org/TR/xhtml/DTD/xhtml-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sp" lang="sp">
+            //dtd transitional lo usamos cuando queremos describir la presentacion de documentos por medio de etiquetas.
+                // dtd incluye características del strict pero añade características de estilo(CSS)
+            //dtd strict: deja la maquetación entera al CSS
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf=8" />   
+       <title>.:: Etiqueas HTML ::. </title>
+</head>
+
+<body>
+
+<h2>Formatos de Texto<h2/>
+
+<p> El <em> 1&deg;</em> y <em> 2 </em> de <i> noviembre </i> se celera o conmemora el <strong> D&iacute;a de Muertos </strong> en <u>M&eacute;xico</u>. </p>
+<p> a<sup> 2 </sup>
+<address> Pen&iacute;nsula 7 depto. 202 </address>
+
+<h3> Tipos de listas: </h3>
+<ol>
+    <li>Ordenadas</li>
+    <ol type="a">
+       <li>Listas alfa&acute;ticas (min&uacute;sculas y may&uacute;sculas)</li>
+       <li>Listas de n&uacute;meros romanos</li>
+    </ol>    
+     <li> Desorddenadas </li>
+</ol>
+
+<p> Nos permiten mostrar listas en las ue tenemos valor y definición. Suenen utilizarse para definir térmicos como si fuera un diccionario).</p>
+</body>
+</html>

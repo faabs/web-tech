@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* Elemento, elmento*/
+h1, p{
+	color: #393;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+}
+
+/* Elemento elmento*/
+
+div p{
+	text-aign:right;
+	border:dotted;
+	border-color:green;
+}
+
+/* Elemento > elemento(padre) */
+div > p{
+	text-align: left;
+	border: dashed;
+	border-color: lightblue;
+}
+
+/* Elemento + elemento(padre) */
+
+div + p{
+	text-align: center;
+	border: double;
+	border-color: red;
+}

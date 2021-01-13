@@ -1,0 +1,9 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/*@import url(cssEjemplo2.css)*/
+
+p{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: orange;
+}

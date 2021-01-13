@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio Tabla</title>
+</head>
+<body>
+	<table border="1" cellpadding="8" width="500">
+ <tr>
+    <th bgcolor="blue" rowspan="2">A&ntilde;o</td>
+    <th bgcolor="red" colspan="3">Viajes</th>
+</tr>
+
+<tr bgcolor="green">
+    <th>Europa</th>
+    <th>Asia</th>
+    <th>Total</th>
+</tr>
+
+<tr>
+    <th>2018</th>
+    <td>10,000.00</td>
+    <td>7,250.00</td>
+    <td>17,250.00</td>
+</tr>
+
+<tr>
+    <th>2019</th>
+    <td>14,000.00</td>
+    <td>10,000.00</td>
+    <td>24,000.00</td>
+</tr>
+</table><br>
+
+<form action="mapa.png" method="get">
+  <label for = "nombre">Nombre(s)</label>
+  <input type = "text" id="nombre" name="nombre" size="50" maxlength="20"> <br>
+  <label for = "nombre">Constrase&ntilde;a</label>
+  <input type = "password" id="pass" name="pass"> <br>
+  <input type="checkbox" name="check" value="Hola" checked="checked"/>Hola<br>
+  <input type="radio" name="rad">
+  <input type="radio" name="rad"> <br>
+  <input type="file"> <br>
+  <input type="email" name="correo"> Correo <br>
+  <input type="submit" formaction="mapa.png" value="Enviar"> 
+  <input type="reset" value="Limpiar" name="pass">
+  <br>
+  <select id="carros" name="carros" size="1">
+    <option selected="selected">Selecciona Una Opcion</option>
+    <option value="Renault">Renault</option>
+    <option value="BMW">BMW</option>
+    <option value="Seat">Seat</option>
+    <option value="Moto">Moto</option>
+    <option value="Run">Run</option>
+    <option value="Fast">Fast</option>
+    <option value="Go">Go</option>
+  </select> <br>
+
+  <fieldset>
+    <legend>Datos Personales</legend>
+    <legend>Datos 2</legend>
+    <label for="Nombre">Nombre: </label> <input type="text" name="Nombre">
+  </fieldset>
+
+</form>
+
+</body>
+</html>

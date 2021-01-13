@@ -1,0 +1,91 @@
+<?xml version ="1.0" encoding ="utf-8"?>
+
+<?xml-stylesheet type="text/xsl" href ="equipo1.xsl"?>
+
+<farmacia>
+
+	<medicamento categoria = "Jarabe">
+		<nombre>Histiacil</nombre>
+		<via_administracion>Oral</via_administracion>
+		<contenido>60 ml</contenido>
+		<precio>128</precio>
+	</medicamento>
+
+	<medicamento categoria = "Comprimido">
+		<nombre>Morfina</nombre>
+		<via_administracion>Oral</via_administracion>
+		<contenido>10 mg</contenido>
+		<precio>65</precio>
+	</medicamento>
+
+	<medicamento categoria = "Capsula">
+		<nombre>Bupivacaína</nombre>
+		<via_administracion>Oral</via_administracion>
+		<contenido>20 Caps</contenido>
+		<precio>99</precio>
+	</medicamento>
+
+	<medicamento categoria = "Capsula">
+		<nombre>Paracetamol</nombre>
+		<via_administracion>Oral</via_administracion>
+		<contenido>40 Caps</contenido>
+		<precio>78</precio>
+	</medicamento>
+
+	<medicamento categoria = "Comprimido">
+		<nombre>Codeína</nombre>
+		<via_administracion>Oral</via_administracion>
+		<contenido>30 mg</contenido>
+		<precio>74</precio>
+	</medicamento>
+
+	<medicamento categoria = "Capsula">
+		<nombre>Ibuprofeno</nombre>
+		<via_administracion>Oral</via_administracion>
+		<contenido>30 Caps</contenido>
+		<precio>45</precio>
+	</medicamento>
+
+	<medicamento categoria = "Jarabe">
+		<nombre>Mejoralito</nombre>
+		<via_administracion>Oral</via_administracion>
+		<contenido>200 ml</contenido>
+		<precio>87</precio>
+	</medicamento>
+
+	<medicamento categoria = "Comprimido">
+		<nombre>KY6</nombre>
+		<via_administracion>Oral</via_administracion>
+		<contenido>30 mg</contenido>
+		<precio>120</precio>
+	</medicamento>
+
+	<medicamento categoria = "Jarabe">
+		<nombre>Tukeli</nombre>
+		<via_administracion>Oral</via_administracion>
+		<contenido>120 ml</contenido>
+		<precio>87</precio>
+	</medicamento>
+
+	<medicamento categoria = "Comprimido">
+		<nombre>Clorfenamina</nombre>
+		<via_administracion>Oral</via_administracion>
+		<contenido>40 mg</contenido>
+		<precio>105</precio>
+	</medicamento>
+
+	<medicamento categoria = "Jarabe">
+		<nombre>Tusigen NF</nombre>
+		<via_administracion>Oral</via_administracion>
+		<contenido>150 ml</contenido>
+		<precio>74</precio>
+	</medicamento>
+
+	<medicamento categoria = "Capsula">
+		<nombre>Diazepam</nombre>
+		<via_administracion>Oral</via_administracion>
+		<contenido>25 Caps</contenido>
+		<precio>87</precio>
+	</medicamento>
+
+</farmacia>
